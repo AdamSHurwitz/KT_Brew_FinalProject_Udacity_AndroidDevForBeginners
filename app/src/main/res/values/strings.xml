@@ -25,6 +25,33 @@
         1) estimate 5-10 days [sometimes it takes 14 days]\n2) taste: too sweet = it has not completely fermented \n    too vinegary or sour = it has gone too long \n3) bottle separately and let sit @ room temperature for 2 days, then refrigerate
     </string>
     <string name="calendar_reminder">CALENDAR REMINDER</string>
+    <string name="primary_fermentation">PRIMARY FERMENTATION</string>
+    <!-- strings for primary fermentation table-->
+    <string name="water">water</string>
+    <string name="tea">tea</string>
+    <string name="raw_cane_sugar">raw sugar</string>
+    <string name="kombucha">KT</string>
+    <string name="mother_scoby">SCOBY</string>
+    <string name="lid">lid</string>
+    <string name="tweleve_cups">12cups</string>
+    <string name="nine_tsps">9tsps</string>
+    <string name="three_fourth_cups">3/4cup</string>
+    <string name="one_and_half_cups_kombucha">10/90\nKT/tea</string>
+    <string name="first_note">(1)</string>
+    <string name="one_opaque">1 </string>
+    <string name="second_note">(2)</string>
+    <string name="open_with_cloth">open\nw/ cloth</string>
+    <string name="twenty_four_cups">24cups</string>
+    <string name="eighteen_tsps">18tsps</string>
+    <string name="one_and_half_cups">1.5cups</string>
+    <string name="quotes">"''"</string>
+
+    <string name="signs_of_readiness">signs of readiness:\n\u2022cloudy at the top\n\u2022darker  brown to lighter tan liquid
+
+</string>
+
+    <string name="annotations">(1)prevents mold\n(2)opaque side up</string>
+
 </resources>
 
 

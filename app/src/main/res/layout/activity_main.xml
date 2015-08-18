@@ -161,103 +161,73 @@
                 android:layout_height="match_parent">
                 <TableRow>
                     <TextView
-                        android:text="R1C1"
+                        android:text="@string/primary_fermentation"
+                        android:padding="3dp"
+                        android:layout_span="8"
+                        />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="@string/water"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C2"
+                        android:text="@string/tea"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C2"
+                        android:text="@string/raw_cane_sugar"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R2C2"
+                        android:text="@string/kombucha"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C1"
+                        android:text="@string/mother_scoby"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
+                        android:text="@string/lid"
                         android:padding="3dp" />
                 </TableRow>
 
                 <TableRow>
                     <TextView
-                        android:text="R2C1"
+                        android:text="@string/tweleve_cups"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R2C2"
+                        android:text="@string/nine_tsps"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C2"
+                        android:text="@string/three_fourth_cups"
                         android:padding="3dp" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@string/one_and_half_cups_kombucha"
+                            android:padding="3dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/first_note"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/one_opaque"
+                            android:padding="3dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/second_note"/>
+                    </LinearLayout>
                     <TextView
-                        android:text="R1C1"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                </TableRow>
-
-                <TableRow>
-                    <TextView
-                        android:text="R2C1"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C1"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                </TableRow>
-
-                <TableRow>
-                    <TextView
-                        android:text="R2C1"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C1"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
+                        android:text="@string/open_with_cloth"
                         android:padding="3dp" />
                     <TextView
                         android:text="R2C2"
@@ -269,33 +239,37 @@
 
                 <TableRow>
                     <TextView
-                        android:text="R2C1"
+                        android:text="@string/twenty_four_cups"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R2C2"
+                        android:text="@string/eighteen_tsps"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R2C2"
+                        android:text="@string/one_and_half_cups"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C1"
+                        android:text="@string/quotes"
+                        android:padding="3dp"
+                        />
+                    <TextView
+                        android:text="@string/quotes"
                         android:padding="3dp" />
                     <TextView
-                        android:text="R1C2"
+                        android:text="@string/quotes"
                         android:padding="3dp" />
-                    <TextView
-                        android:text="R1C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <!--ON TABLELAYOUT LEVEL: android:stretchColumns="0"-->
-                    <!-- android:gravity="right"-->
-                    <!--android:layout_span="2"-->
                 </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/annotations"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/signs_of_readiness"
+                        android:padding="3dp"
+                        android:layout_span="8"/>
+                </TableRow>
+                <!--ON TABLELAYOUT LEVEL: android:stretchColumns="0"-->
+                <!-- android:gravity="right"-->
             </TableLayout>
             <TextView
                 android:text="@string/step2_steps"
