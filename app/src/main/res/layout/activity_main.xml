@@ -158,59 +158,102 @@
             style="@style/content_container">
             <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TableRow>
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                style="@style/table">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
                     <TextView
                         android:text="@string/primary_fermentation"
                         android:padding="3dp"
                         android:layout_span="8"
-                        />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                 </TableRow>
 
-                <TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
                     <TextView
                         android:text="@string/water"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"
+                        />
                     <TextView
                         android:text="@string/tea"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
                     <TextView
                         android:text="@string/raw_cane_sugar"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/kombucha"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/mother_scoby"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/lid"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                 </TableRow>
 
-                <TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
                     <TextView
                         android:text="@string/tweleve_cups"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/nine_tsps"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/three_fourth_cups"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        style="@style/body">
                         <TextView
                             android:layout_height="wrap_content"
                             android:layout_width="wrap_content"
                             android:text="@string/one_and_half_cups_kombucha"
-                            android:padding="3dp" />
+                            android:padding="3dp"
+                            style="@style/body"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/first_note"/>
+                            android:text="@string/first_note"
+                            style="@style/caption"
+                            />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -220,53 +263,111 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/one_opaque"
-                            android:padding="3dp" />
+                            android:padding="3dp"
+                            style="@style/body"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/second_note"/>
+                            android:text="@string/second_note"
+                            style="@style/caption"/>
                     </LinearLayout>
                     <TextView
-                        android:text="@string/open_with_cloth"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
-                    <TextView
-                        android:text="R2C2"
-                        android:padding="3dp" />
+                        android:text="@string/cloth"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                 </TableRow>
 
-                <TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
                     <TextView
                         android:text="@string/twenty_four_cups"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/eighteen_tsps"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/one_and_half_cups"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/quotes"
                         android:padding="3dp"
-                        />
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/quotes"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                     <TextView
                         android:text="@string/quotes"
-                        android:padding="3dp" />
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                 </TableRow>
-                <TableRow>
-                    <TextView
-                        android:text="@string/annotations"/>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_span="8">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@string/first_note"
+                            android:padding="3dp"
+                            android:layout_span="8"
+                            style="@style/caption"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/first_annotation"
+                            android:layout_span="8"
+                            android:layout_marginRight="16dp"
+                            style="@style/body"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/second_note"
+                            style="@style/caption"
+                            android:layout_span="8"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/second_annotation"
+                            android:layout_span="8"
+                            style="@style/body"/>
+                    </LinearLayout>
                 </TableRow>
-                <TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
                     <TextView
                         android:text="@string/signs_of_readiness"
                         android:padding="3dp"
-                        android:layout_span="8"/>
+                        android:layout_span="8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
                 </TableRow>
                 <!--ON TABLELAYOUT LEVEL: android:stretchColumns="0"-->
                 <!-- android:gravity="right"-->
@@ -275,7 +376,7 @@
                 android:text="@string/step2_steps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="3dp"
                 style="@style/body"/>
         </LinearLayout>
     </LinearLayout>
@@ -313,17 +414,139 @@
                 android:src="@drawable/brew_75"
                 style="@style/image"/>
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             style="@style/content_container"
             android:id="@+id/step3_content">
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                style="@style/table">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/secondary_fermentation"
+                        android:padding="3dp"
+                        android:layout_span="8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
+                    <TextView
+                        android:text="@string/flavor"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"
+                        />
+                    <TextView
+                        android:text="@string/lid"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                    <TextView
+                        android:text="@string/lifetime"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/flavors"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                    <TextView
+                        android:text="@string/closed"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                    <TextView
+                        android:text="@string/six_months"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                style="@style/table">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/scoby_hotel"
+                        android:padding="3dp"
+                        android:layout_span="8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
+                    <TextView
+                        android:text="@string/steps"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"
+                        />
+                    <TextView
+                        android:text="@string/maintenance"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/steps_content"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                    <TextView
+                        android:text="@string/maintenance_content"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/body"/>
+                </TableRow>
+            </TableLayout>
+
             <TextView
                 android:text="@string/step3_steps"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/body"/>
+                style="@style/body"
+                />
         </LinearLayout>
     </LinearLayout>
 
@@ -396,6 +619,57 @@
                 android:layout_height="1dp"
                 android:layout_weight="1"/>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/footer">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/me"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/madeBy"
+                    style="@style/body"
+                    android:layout_weight="0"
+                    android:layout_margin="8dp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disclaimer"
+                style="@style/disclaimer">
+            </TextView>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 
 

@@ -20,6 +20,7 @@
         <!-- color of navigation bar-->
         <item name="@android:navigationBarColor">@android:color/transparent</item>
 
+    <!-- Strings for Primary Fermentation Table -->
     </style>
     <style name="display_1">
         <item name="android:textSize">34sp</item>
@@ -57,4 +58,19 @@
         <item name="android:layout_margin">16dp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+    <style name="caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#727272</item>
+    </style>
+    <style name="table">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="footer">
+        <item name="android:layout_marginTop">72dp</item>
+    </style>
+    <style name="disclaimer">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#727272</item>
+    </style>
+
 </resources>

@@ -8,7 +8,7 @@
     <string name="tools">Tools</string>
     <string name="ingredients">Ingredients</string>
     <string name="step1_tools">
-        \u2022 1.5 qt pot (for 10 bottles worth)\n\u2022 large tea infuser (3in)\n\u2022 ladle spoon\n\u2022 clean food scissors\n\u2022 2G glass or ceramic dispenser\n\u2022 mesh cloth or t-shirt\n\u2022 rubber band or lid\n\u2022 thermometer\n\u2022 jar with lid (for SCOBY hotel)\n\u2022 distilled vinegar\n
+        \u2022 1.5 qt pot\n\u2022 large tea infuser (3in)\n\u2022 ladle spoon\n\u2022 clean food scissors\n\u2022 2G glass or ceramic dispenser\n\u2022 mesh cloth or t-shirt\n\u2022 rubber band or lid\n\u2022 thermometer\n\u2022 jar with lid (for SCOBY hotel)\n\u2022 distilled vinegar\n
     </string>
     <string name="step1_ingredients">
         \u2022 black tea \n\u2022 raw cane sugar \n\u2022 spring water \n\u2022 active Kombucha \n\u2022 Kombucha mushroom culture \n
@@ -26,7 +26,8 @@
     </string>
     <string name="calendar_reminder">CALENDAR REMINDER</string>
     <string name="primary_fermentation">PRIMARY FERMENTATION</string>
-    <!-- strings for primary fermentation table-->
+
+    <!-- Primary Fermentation Table-->
     <string name="water">water</string>
     <string name="tea">tea</string>
     <string name="raw_cane_sugar">raw sugar</string>
@@ -40,18 +41,32 @@
     <string name="first_note">(1)</string>
     <string name="one_opaque">1 </string>
     <string name="second_note">(2)</string>
-    <string name="open_with_cloth">open\nw/ cloth</string>
+    <string name="cloth">cloth</string>
     <string name="twenty_four_cups">24cups</string>
     <string name="eighteen_tsps">18tsps</string>
     <string name="one_and_half_cups">1.5cups</string>
     <string name="quotes">"''"</string>
+    <string name="signs_of_readiness">signs of readiness:\n\u2022cloudy at the top\n\u2022darker  brown to lighter tan liquid</string>
+    <string name="first_annotation">prevents mold</string>
+    <string name="second_annotation">opaque side up</string>
 
-    <string name="signs_of_readiness">signs of readiness:\n\u2022cloudy at the top\n\u2022darker  brown to lighter tan liquid
+    <!-- Secondary Fermentation Table-->
+    <string name="secondary_fermentation">SECONDARY FERMENTATION</string>
+    <string name="flavor">flavor</string>
+    <string name="lifetime">lifetime</string>
+    <string name="flavors">ginger|mango|pomegranate|etc.</string>
+    <string name="closed">closed</string>
+    <string name="six_months">6 months</string>
 
-</string>
+    <!-- Scoby Hotel Fermentation Table-->
+    <string name="scoby_hotel">SCOBY Hotel</string>
+    <string name="steps">Steps</string>
+    <string name="maintenance">Maintenance</string>
+    <string name="steps_content">Scoop out and gar scoby\nfilling with tea</string>
+    <string name="maintenance_content">2 - 6 months\n1)reducing yeast (brown strands)\n2)trimming scoby</string>
 
-    <string name="annotations">(1)prevents mold\n(2)opaque side up</string>
-
+    <string name="madeBy">an AH production</string>
+    <string name="disclaimer">[disclaimer: this app is not liable for any bad KT created]</string>
 </resources>
 
 
