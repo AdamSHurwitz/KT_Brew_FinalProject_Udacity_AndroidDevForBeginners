@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KT Brew</string>
+
+    <string name="title">How To Make Kombucha</string>
+    <string name="action_settings">Settings</string>
+    <string name="step1_title"> Step 1 out of 3</string>
+    <string name="step1_subtitle"> Ingredients and Tools</string>
+    <string name="tools">Tools</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="step1_tools">
+        \u2022 1.5 qt pot (for 10 bottles worth)\n\u2022 large tea infuser (3in)\n\u2022 ladle spoon\n\u2022 clean food scissors\n\u2022 2G glass or ceramic dispenser\n\u2022 mesh cloth or t-shirt\n\u2022 rubber band or lid\n\u2022 thermometer\n\u2022 jar with lid (for SCOBY hotel)\n\u2022 distilled vinegar\n
+    </string>
+    <string name="step1_ingredients">
+        \u2022 black tea \n\u2022 raw cane sugar \n\u2022 spring water \n\u2022 active Kombucha \n\u2022 Kombucha mushroom culture \n
+    </string>
+    <string name="pre_brew">Step 2 out of 3</string>
+    <string name="step2_title">Pre-Brew</string>
+    <string name="step2_subtitle">Pre-Brew</string>
+    <string name="step2_steps">
+        1) rinse out Kombucha vessel and pot with distilled vinegar\n2) boil water in pot \n3) add tea and turn off heat\n4) add raw cane sugar, stir until dissolved\n5) let steep until cool with lid on\n6) strain tea into bowl\n7) add active Kombucha liquid [add full 16 oz of kombucha if you do not have a mushroom culture already, leave ½ inch at top of the jar for culture to grow]\n8) place in gallon ceramic/glass jar\n9) add the mother mushroom w/ opaque side up\n10) cover with a mesh cloth, other cloth, or loose lid\n11) store on a countertop or in a cupboard space that is no warmer than 77º [the cooler the temperature the longer it takes to culture]\n
+    </string>
+    <string name="brew">Step 3 out of 3</string>
+    <string name="step3_subtitle">Brew</string>
+    <string name="step3_steps">
+        1) estimate 5-10 days [sometimes it takes 14 days]\n2) taste: too sweet = it has not completely fermented \n    too vinegary or sour = it has gone too long \n3) bottle separately and let sit @ room temperature for 2 days, then refrigerate
+    </string>
+    <string name="calendar_reminder">CALENDAR REMINDER</string>
+</resources>
+
+
+
+
+

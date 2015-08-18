@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- window background -->
+        <item name="@android:windowBackground">@color/window_background</item>
+        <!-- color of action bar (use 500 color) -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <!-- color of statusbar (use 700 color) -->
+        <item name="colorPrimaryDark">#303F9F</item>
+        <!-- status bar to transparent -->
+        <!--<item name="@android:statusBarColor">@android:color/transparent</item>-->
+        <!-- accent coloring for views (ie: Checkboxes, EditText) -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- text color -->
+        <item name="android:textColorPrimary">#212121</item>
+        <!-- background color of buttons -->
+        <item name="colorButtonNormal">#3F51B5</item>
+        <!-- color of navigation bar-->
+        <item name="@android:navigationBarColor">@android:color/transparent</item>
+
+    </style>
+    <style name="display_1">
+        <item name="android:textSize">34sp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="container">
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="content_container">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+    </style>
+    <style name="headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">#727272</item>
+    </style>
+    <style name="title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="subhead">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#727272</item>
+    </style>
+    <style name="image">
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+    <style name="calendarButton">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
