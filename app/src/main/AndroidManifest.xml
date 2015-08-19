@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme"
         android:permission="android.permission.WRITE_CALENDAR"
         android:versionCode="1"
-        android:versionName="beta">
+        android:versionName="1.1">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
