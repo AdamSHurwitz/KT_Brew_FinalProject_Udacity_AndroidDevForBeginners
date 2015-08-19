@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">KT Brew</string>
+    <string name="app_name">KTBM</string>
 
-    <string name="title">How To Make Kombucha</string>
+    <string name="title">Kombucha Brewmaster</string>
     <string name="action_settings">Settings</string>
     <string name="step1_title"> Step 1 out of 3</string>
     <string name="step1_subtitle"> Ingredients and Tools</string>
